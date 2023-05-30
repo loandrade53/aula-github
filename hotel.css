@@ -1,8 +1,19 @@
+body{
+    background: #fcfcfc;
+}
+
+h1{
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+  
 #divBusca{
-    background-color:#2F4F4F;
+    background-color:#09576e7e;
     border:solid 1px;
     border-radius:15px;
     width:300px;
+    justify-content: flex-end;
   }
   
   #txtBusca{
@@ -15,3 +26,18 @@
     height:32px;
     width:260px;
   }
+
+  .mapa-responsivo{
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
+  }
+  .mpapa-responsivo iframe{
+    left: 0;
+    top: 0;
+    height:100%;
+    width: 100;
+    position: absolute;
+  }
+   
