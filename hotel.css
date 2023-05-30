@@ -6,14 +6,17 @@ h1{
   font-style: normal;
   font-weight: 500;
   color: rgb(0, 0, 0);
+  display: inline-block;
 }
   
 #divBusca{
     background-color:#09576e7e;
-    border:solid 1px;
+    border:solid 3px;
     border-radius:15px;
     width:300px;
-    justify-content: flex-end;
+    display: inline-flex;
+    font-display: end;
+    
   }
   
   #txtBusca{
