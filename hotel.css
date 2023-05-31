@@ -8,7 +8,9 @@ h1{
   color: rgb(0, 0, 0);
   display: inline-block;
 }
-  
+  h2{
+    display: inline-block;
+  }
 #divBusca{
     background-color:#09576e7e;
     border:solid 3px;
@@ -35,7 +37,15 @@ h1{
     color: white;
     text-decoration: none;
   }
-
+  .entrada-saida{
+    appearance: button;
+    padding: 5px 18px;
+    background-color: grey;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+  }
   .mapa-responsivo{
     overflow: hidden;
     padding-bottom: 40%;
