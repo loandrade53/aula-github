@@ -1,5 +1,6 @@
 body{
-    background: #64b6e6;
+  background-image: "imagens\vista\download.jpg";
+
 }
 #divrodape{
   background-color: white;
@@ -32,12 +33,15 @@ h1{
     height:32px;
     width:260px;
   }
+  img{
+    border-radius: 30px;
+  }
   .link-as-button {
     appearance: button;
     padding: 5px 18px;
     background-color: grey;
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
   }
   .entrada-saida{
@@ -51,10 +55,13 @@ h1{
   }
   .mapa-responsivo{
     overflow: hidden;
-    padding-bottom: 40%;
+    padding-bottom: 60%;
     position: relative;
     height: 0;
     display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
   .mpapa-responsivo iframe{
     left: 100%;
@@ -62,4 +69,15 @@ h1{
     height:0;
     width: 0;
     position: absolute;
+  }
+
+  .parteRodaPe{
+    background: rgb(0, 0, 0);
+    font-style: arial; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .txtRodaPe{
+    color: aliceblue;
   }
